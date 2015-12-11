@@ -3,6 +3,12 @@
 
 @implementation DBATestCase
 
++(void)initialize
+{
+    [super initialize];
+    [self testInvocations];
+}
+
 + (NSArray<NSInvocation *> *)testInvocations
 {
     /** Method 1 */
@@ -31,7 +37,7 @@
     /** Method 3*/
 
     IMP implementation_3 = imp_implementationWithBlock(^{
-        XCTFail(@"dasd");
+        XCTAssert(YES==NO);
     });
 
     class_addMethod(self, NSSelectorFromString(@"sample3"), implementation_3, types);

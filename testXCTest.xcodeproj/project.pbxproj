@@ -13,7 +13,6 @@
 		9EE0B65B1C1A0AD5005B7558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0B6591C1A0AD5005B7558 /* Main.storyboard */; };
 		9EE0B65D1C1A0AD5005B7558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0B65C1C1A0AD5005B7558 /* Assets.xcassets */; };
 		9EE0B6601C1A0AD5005B7558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0B65E1C1A0AD5005B7558 /* LaunchScreen.storyboard */; };
-		9EE0B66B1C1A0AD5005B7558 /* testXCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0B66A1C1A0AD5005B7558 /* testXCTestTests.m */; };
 		9EE0B6771C1A0AEE005B7558 /* DBATestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0B6761C1A0AEE005B7558 /* DBATestCase.m */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		9EE0B65F1C1A0AD5005B7558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EE0B6611C1A0AD5005B7558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE0B6661C1A0AD5005B7558 /* testXCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testXCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EE0B66A1C1A0AD5005B7558 /* testXCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testXCTestTests.m; sourceTree = "<group>"; };
 		9EE0B66C1C1A0AD5005B7558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE0B6751C1A0AEE005B7558 /* DBATestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBATestCase.h; sourceTree = "<group>"; };
 		9EE0B6761C1A0AEE005B7558 /* DBATestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBATestCase.m; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 		9EE0B6691C1A0AD5005B7558 /* testXCTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EE0B66A1C1A0AD5005B7558 /* testXCTestTests.m */,
 				9EE0B66C1C1A0AD5005B7558 /* Info.plist */,
 				9EE0B6751C1A0AEE005B7558 /* DBATestCase.h */,
 				9EE0B6761C1A0AEE005B7558 /* DBATestCase.m */,
@@ -226,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE0B66B1C1A0AD5005B7558 /* testXCTestTests.m in Sources */,
 				9EE0B6771C1A0AEE005B7558 /* DBATestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +404,7 @@
 				9EE0B6711C1A0AD5005B7558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EE0B6721C1A0AD5005B7558 /* Build configuration list for PBXNativeTarget "testXCTestTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +413,7 @@
 				9EE0B6741C1A0AD5005B7558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
